@@ -1,0 +1,34 @@
+{
+  "name": "Security-systems-programs-and-data-labs",
+  "version": "1.0.0",
+  "description": "labs for security systems subject",
+  "main": "index.ts",
+  "repository": "https://github.com/Sapp3465/Security-systems-programs-and-data-labs.git",
+  "author": "Sapp3465",
+  "license": "MIT",
+  "scripts": {
+    "build-lab1": "tsc lab1/index.ts",
+    "start-lab1": "node lab1/index.js",
+    "build-lab2": "tsc lab2/index.ts",
+    "start-lab2": "node lab2/index.js",
+    "build-lab3": "tsc lab3/index.ts",
+    "start-lab3": "node lab3/index.js",
+    "build-lab4": "tsc lab4/index.ts",
+    "start-lab4": "node lab4/index.js",
+    "build-lab5": "tsc lab5/index.ts",
+    "start-lab5": "node lab5/index.js",
+    "build-lab6": "tsc lab6/index.ts",
+    "start-lab6": "node lab6/index.js",
+    "reinit": "tsc virtual-disk/init.ts && node virtual-disk/init.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "big.js": "^6.1.1",
+    "dotenv": "^10.0.0",
+    "encrypt-rsa": "^1.1.0",
+    "mongoose": "^6.0.14",
+    "node-forge": "^0.10.0"
+  }
+}
